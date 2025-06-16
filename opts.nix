@@ -1,4 +1,4 @@
-{pkgs, ...}: {
+{...}: {
   extraConfigVim = ''
     set clipboard+=unnamedplus
   '';

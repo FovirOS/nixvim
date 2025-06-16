@@ -1,8 +1,4 @@
-{
-  config,
-  pkgs,
-  ...
-}: {
+{config, ...}: {
   # Syntax highlight.
   plugins.treesitter = {
     enable = true;
