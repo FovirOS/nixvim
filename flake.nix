@@ -22,10 +22,11 @@
       my-nvim = nixvim'.makeNixvim {
         # inherit pkgs;
         imports = [
-          ./default.nix
+          ./profile_install.nix
         ];
       };
     in {
       packages.default = my-nvim;
     });
 }
+
