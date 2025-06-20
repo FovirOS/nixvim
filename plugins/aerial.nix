@@ -3,8 +3,9 @@
     enable = true;
 
     settings = {
-      open_automatic = true;
+      open_automatic = false;
       filter_kind = false;
+      show_guides = true;
 
       layout = {
         default_direction = "right";
@@ -12,4 +13,3 @@
     };
   };
 }
-
