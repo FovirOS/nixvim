@@ -36,6 +36,7 @@
           {name = "path";}
           {name = "emmet";}
           {name = "luasnip";}
+          {name = "buffer";}
         ];
       };
     };
