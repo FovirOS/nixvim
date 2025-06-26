@@ -3,6 +3,7 @@
     ./clangd.nix
     ./gopls.nix
     ./nil.nix
+    ./html.nix
   ];
 
   plugins.lsp = {

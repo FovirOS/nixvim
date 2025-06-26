@@ -1,5 +1,5 @@
 {...}: {
-  plugins.lsp.servers.gopls = {
+  plugins.lsp.servers.html = {
     enable = true;
   };
 }
