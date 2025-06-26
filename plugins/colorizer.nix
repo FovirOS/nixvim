@@ -1,5 +1,5 @@
 {...}: {
-  plugins.lsp.servers.gopls = {
+  plugins.colorizer = {
     enable = true;
   };
 }

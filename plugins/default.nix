@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./ts-autotag.nix
     ./ltex-extra.nix
     ./guess-indent.nix
     ./wakatime.nix
@@ -25,6 +26,6 @@
     ./indent-blankline.nix
     ./persistence.nix
     ./aerial.nix
+    ./colorizer.nix
   ];
 }
-
