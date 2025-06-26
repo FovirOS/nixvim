@@ -1,5 +1,0 @@
-{...}: {
-  plugins.emmet = {
-    enable = true;
-  };
-}

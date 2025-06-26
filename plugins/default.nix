@@ -1,7 +1,6 @@
 {...}: {
   imports = [
     ./ts-autotag.nix
-    ./emmet.nix
     ./ltex-extra.nix
     ./guess-indent.nix
     ./wakatime.nix
