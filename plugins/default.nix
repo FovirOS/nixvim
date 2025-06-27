@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./neogen.nix
     ./ts-autotag.nix
     ./ltex-extra.nix
     ./guess-indent.nix
