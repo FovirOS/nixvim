@@ -1,6 +1,7 @@
 {...}: {
   imports = [
     ./clangd.nix
+    ./ltex.nix
     ./gopls.nix
     ./nil.nix
     ./html.nix
