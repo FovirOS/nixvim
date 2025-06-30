@@ -17,17 +17,17 @@
     }
 
     {
-      key = "<F2>";
+      key = "<leader>r";
       mode = "n";
       action = "<cmd>Lspsaga rename<CR>";
-      options.desc = "Rename";
+      options.desc = "[R]ename";
     }
 
     {
-      key = "<F3>";
+      key = "<leader>p";
       mode = "n";
       action = "<cmd>Lspsaga peek_definition<CR>";
-      options.desc = "Peek Definition";
+      options.desc = "[P]eek Definition";
     }
   ];
 }

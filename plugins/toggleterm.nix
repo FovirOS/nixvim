@@ -44,7 +44,7 @@
 
   keymaps = [
     {
-      key = "<F5>";
+      key = "<leader>5";
       mode = "n";
       action = ":lua RunCurrentFile()<CR>";
       options.desc = "Run Code";
