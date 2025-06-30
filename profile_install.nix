@@ -19,4 +19,3 @@
     ./autocmd.nix # Import auto commands.
   ];
 }
-
