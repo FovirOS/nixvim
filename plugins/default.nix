@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./lualine.nix
     ./neogen.nix
     ./ts-autotag.nix
     ./guess-indent.nix

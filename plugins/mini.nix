@@ -3,10 +3,6 @@
     enable = true;
 
     modules = {
-      statusline = {
-        use_icons = true;
-      };
-
       starter = {
         content_hooks = {
           "__unkeyed-1.adding_bullet" = {
