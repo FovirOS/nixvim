@@ -3,6 +3,13 @@
     set clipboard+=unnamedplus
   '';
 
+  extraConfigLua = ''
+    vim.g.neovide_floating_blur_amount_x = 2.0
+    vim.g.neovide_floating_blur_amount_y = 2.0
+    vim.g.neovide_opacity = 0.9
+    vim.g.neovide_normal_opacity = 0.9
+  '';
+
   opts = {
     # Configure tab behaviours.
     tabstop = 4;
@@ -33,4 +40,3 @@
     spelllang = "en_US";
   };
 }
-
