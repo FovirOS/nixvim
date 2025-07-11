@@ -1,5 +1,11 @@
 {...}: {
   imports = [
+    ./tailwindcss.nix
+    ./ts_ls.nix
+    ./eslint.nix
+    ./jsonls.nix
+    ./cssls.nix
+    ./pyright.nix
     ./clangd.nix
     ./ltex.nix
     ./gopls.nix
