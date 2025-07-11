@@ -85,7 +85,7 @@
     }
 
     {
-      action = "<cmd>!pkill live-server";
+      action = "<cmd>!pkill live-server<CR>";
       key = "<leader>lsk";
       mode = "n";
       options.desc = "[L]ive [S]erver [K]ill";
