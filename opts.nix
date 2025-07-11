@@ -38,5 +38,7 @@
     # Enable spell check.
     spell = true;
     spelllang = "en_US";
+
+    formatoptions = "croq";
   };
 }
