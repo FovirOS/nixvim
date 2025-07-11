@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./ts_ls.nix
     ./eslint.nix
     ./jsonls.nix
     ./cssls.nix
