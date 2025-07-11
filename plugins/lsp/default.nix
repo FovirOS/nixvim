@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./pyright.nix
     ./clangd.nix
     ./ltex.nix
     ./gopls.nix
