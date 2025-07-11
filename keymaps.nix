@@ -76,5 +76,19 @@
       mode = "n";
       options.desc = "Toggle Outline";
     }
+
+    {
+      action = "<cmd>!live-server -H 127.0.0.1 --port 8000 --open &<CR>";
+      key = "<leader>lss";
+      mode = "n";
+      options.desc = "[L]ive [S]erver [S]tart";
+    }
+
+    {
+      action = "<cmd>!pkill live-server";
+      key = "<leader>lsk";
+      mode = "n";
+      options.desc = "[L]ive [S]erver [K]ill";
+    }
   ];
 }
