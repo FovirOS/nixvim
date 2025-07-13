@@ -5,6 +5,9 @@
     settings = {
       direction = "float";
 
+      autochdir = true;
+      persist_size = false;
+
       open_mapping = "[[<C-`>]]";
     };
   };
