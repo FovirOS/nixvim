@@ -72,9 +72,9 @@
 
     {
       action = "<cmd>AerialToggle<CR>";
-      key = "<leader>ae";
+      key = "<leader>a";
       mode = "n";
-      options.desc = "[A][E]rial";
+      options.desc = "Toggle Outline";
     }
 
     {
