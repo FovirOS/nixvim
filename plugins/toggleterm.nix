@@ -9,6 +9,10 @@
       persist_size = false;
 
       open_mapping = "[[<C-`>]]";
+
+      float_opts = {
+        border = "rounded";
+      };
     };
   };
 
