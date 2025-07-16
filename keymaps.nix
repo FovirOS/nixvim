@@ -78,7 +78,7 @@
     }
 
     {
-      action = "<cmd>!live-server -H 127.0.0.1 --port 8000 --open &<CR>";
+      action = "<cmd>!live-server -H 127.0.0.1 --open &<CR>";
       key = "<leader>lss";
       mode = "n";
       options.desc = "[L]ive [S]erver [S]tart";
