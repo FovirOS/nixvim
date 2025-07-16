@@ -9,4 +9,13 @@
       auto_save = true;
     };
   };
+
+  keymaps = [
+    {
+      action = "<cmd>Autosession search<CR>";
+      mode = "n";
+      key = "<leader>as";
+      options.desc = "[A]uto [S]ession";
+    }
+  ];
 }
