@@ -12,6 +12,9 @@
       };
 
       config = {
+        packages.enable = false;
+        shortcut = null;
+
         header = [
           ""
           "    _   _______  ___    ________  ___"
