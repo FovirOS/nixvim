@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./dashboard.nix
     ./lualine.nix
     ./neogen.nix
     ./ts-autotag.nix

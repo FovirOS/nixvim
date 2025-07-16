@@ -18,6 +18,12 @@
         ];
       };
 
+      exclude = {
+        filetypes = [
+          "dashboard"
+        ];
+      };
+
       scope = {
         enabled = true;
         show_exact_scope = true;
