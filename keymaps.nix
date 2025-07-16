@@ -72,13 +72,13 @@
 
     {
       action = "<cmd>AerialToggle<CR>";
-      key = "<leader>a";
+      key = "<leader>ae";
       mode = "n";
-      options.desc = "Toggle Outline";
+      options.desc = "[A][E]rial";
     }
 
     {
-      action = "<cmd>!live-server -H 127.0.0.1 --port 8000 --open &<CR>";
+      action = "<cmd>!live-server -H 127.0.0.1 --open &<CR>";
       key = "<leader>lss";
       mode = "n";
       options.desc = "[L]ive [S]erver [S]tart";
