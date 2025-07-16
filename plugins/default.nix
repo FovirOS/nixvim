@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./auto-session.nix
     ./lualine.nix
     ./neogen.nix
     ./ts-autotag.nix
