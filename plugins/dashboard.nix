@@ -4,8 +4,12 @@
 
     settings = {
       change_to_vcs_root = true;
-      shortcut_type = "letter";
+      shortcut_type = "number";
       theme = "hyper";
+
+      hide = {
+        statusline = false;
+      };
 
       config = {
         header = [
