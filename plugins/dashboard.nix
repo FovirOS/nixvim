@@ -13,19 +13,54 @@
 
       config = {
         packages.enable = false;
-        shortcut = null;
+
+        shortcut = [
+          {
+            action.__raw = ''
+              function(path)
+                require("persistence").select()
+              end
+            '';
+            desc = "Select Session ";
+            icon = "󰮳 ";
+            key = "r";
+          }
+
+          {
+            action.__raw = ''
+              function(path)
+                vim.cmd("ene")
+              end
+            '';
+            desc = "New File ";
+            icon = " ";
+            key = "n";
+          }
+
+          {
+            action.__raw = ''
+              function(path)
+                vim.cmd("qa")
+              end
+            '';
+            desc = "Quit ";
+            icon = "󰿅 ";
+            key = "q";
+          }
+        ];
 
         header = [
           ""
-          "    _   _______  ___    ________  ___"
-          "   / | / /  _/ |/ / |  / /  _/  |/  /"
-          "  /  |/ // / |   /| | / // // /|_/ / "
-          " / /|  // / /   | | |/ // // /  / /  "
-          "/_/ |_/___//_/|_| |___/___/_/  /_/   "
+          "███    ██ ██ ██   ██ ██    ██ ██ ███    ███"
+          "████   ██ ██  ██ ██  ██    ██ ██ ████  ████"
+          "██ ██  ██ ██   ███   ██    ██ ██ ██ ████ ██"
+          "██  ██ ██ ██  ██ ██   ██  ██  ██ ██  ██  ██"
+          "██   ████ ██ ██   ██   ████   ██ ██      ██"
           ""
         ];
 
         project = {
+          enable = true;
           action.__raw = ''
             function(path)
               vim.cmd("cd " .. path)
