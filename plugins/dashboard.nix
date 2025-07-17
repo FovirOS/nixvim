@@ -26,6 +26,7 @@
         ];
 
         project = {
+          enable = true;
           action.__raw = ''
             function(path)
               vim.cmd("cd " .. path)
