@@ -14,7 +14,6 @@
     ./treesitter.nix
     ./neo-tree.nix
     ./web-devicons.nix
-    ./mini.nix
     ./toggleterm.nix
     ./lspsaga.nix
     ./tmux-navigator.nix
