@@ -85,7 +85,7 @@
         };
 
         footer = [
-          " Coding or Dying"
+          " Coding or Dying "
         ];
       };
     };
