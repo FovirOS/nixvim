@@ -83,6 +83,10 @@
             end
           '';
         };
+
+        footer = [
+          " Coding or Dying"
+        ];
       };
     };
   };
