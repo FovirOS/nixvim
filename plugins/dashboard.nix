@@ -14,6 +14,11 @@
       config = {
         packages.enable = false;
 
+        mru = {
+          cwd_only = true;
+          limit = 5;
+        };
+
         shortcut = [
           {
             action.__raw = ''
