@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./just.nix
     ./tailwindcss.nix
     ./ts_ls.nix
     ./eslint.nix
