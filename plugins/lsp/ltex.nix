@@ -1,4 +1,5 @@
-{...}: {
+{ ... }:
+{
   plugins.lsp.servers.ltex = {
     enable = true;
 
@@ -9,6 +10,8 @@
     ];
 
     settings = {
+      checkFrequency = "save";
+
       enabled = [
         "bibtex"
         "latex"
