@@ -86,6 +86,7 @@
               vim.notify(path)
             end
           '';
+          limit = 4;
         };
 
         footer = [
