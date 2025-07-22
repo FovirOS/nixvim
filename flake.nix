@@ -29,4 +29,3 @@
       packages.default = my-nvim;
     });
 }
-
