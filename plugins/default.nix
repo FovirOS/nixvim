@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./emmet.nix
     ./mini.nix
     ./dashboard.nix
     ./lualine.nix
