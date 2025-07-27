@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./conform-nvim.nix
     ./emmet.nix
     ./mini.nix
     ./dashboard.nix
