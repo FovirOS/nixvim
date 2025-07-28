@@ -9,6 +9,8 @@
     vim.g.neovide_opacity = 0.9
     vim.g.neovide_normal_opacity = 0.9
     vim.o.shell="${pkgs.zsh}/bin/zsh"
+
+    vim.g.user_emmet_expandabbr_key = "<M-,>";
   '';
 
   opts = {
