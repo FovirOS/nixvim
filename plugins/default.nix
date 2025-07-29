@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./vim-matchup.nix
     ./conform-nvim.nix
     ./emmet.nix
     ./mini.nix
