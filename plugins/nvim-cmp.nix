@@ -103,10 +103,6 @@
               vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<Right>", true, true, true), "i", true)
             elseif luasnip.expand_or_jumpable() then
               luasnip.expand_or_jump()
-            elseif vim.bo.filetype == "html"
-              and vim.fn.getline("."):match("%S") ~= nil
-              and vim.fn["emmet#isExpandable"]() then
-              vim.fn["emmet#expandAbbr"](0,"")
             else
               fallback()
             end
