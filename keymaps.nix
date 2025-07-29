@@ -78,7 +78,7 @@
     }
 
     {
-      action = "<cmd>!live-server --entry-file=%:p -q &<CR>";
+      action = "<cmd>!cd %:p:h && live-server --entry-file=%:t -q &<CR>";
       key = "<leader>lss";
       mode = "n";
       options.desc = "[L]ive [S]erver [S]tart";
