@@ -78,7 +78,7 @@
     }
 
     {
-      action = "<cmd>!live-server %:p:h -H 127.0.0.1 --open &<CR>";
+      action = "<cmd>!live-server %:p:h -H 127.0.0.1 --open --index &<CR>";
       key = "<leader>lss";
       mode = "n";
       options.desc = "[L]ive [S]erver [S]tart";
