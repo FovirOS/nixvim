@@ -43,5 +43,7 @@
     spelllang = "en_US";
 
     formatoptions = "croq";
+
+    wrap = false;
   };
 }
