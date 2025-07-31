@@ -90,5 +90,12 @@
       mode = "n";
       options.desc = "[L]ive [S]erver [K]ill";
     }
+
+    {
+      action = "<cmd>Dashboard<CR>";
+      key = "<leader>d";
+      mode = "n";
+      options.desc = "[D]ashboard";
+    }
   ];
 }
