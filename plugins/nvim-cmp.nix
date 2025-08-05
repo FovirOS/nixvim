@@ -99,10 +99,10 @@
 
             if cmp.visible() then
               cmp.confirm({select = true})
-            elseif jump_chars[next_char] then
-              vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<Right>", true, true, true), "i", true)
             elseif luasnip.expand_or_jumpable() then
               luasnip.expand_or_jump()
+            elseif jump_chars[next_char] then
+              vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<Right>", true, true, true), "i", true)
             else
               fallback()
             end
