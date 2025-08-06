@@ -125,16 +125,16 @@
         "systems": "systems_3"
       },
       "locked": {
-        "lastModified": 1750032703,
-        "narHash": "sha256-l9gJbl99b23xhTSKNdG5lk0LZiECOt1kqa7qw7FY1XI=",
-        "owner": "nix-community",
-        "repo": "nixvim",
-        "rev": "95957f306bf6d8e40f62fd0062cf326436bf011d",
+        "lastModified": 1753200997,
+        "narHash": "sha256-ukYj70h6I/PBkzaDsewBvHU/q3O35Wp8ardsdELaNho=",
+        "owner": "FovirOS",
+        "repo": "fos-nixvim",
+        "rev": "5345bbeb06478a061439275d7a0bc94140250e0f",
         "type": "github"
       },
       "original": {
-        "owner": "nix-community",
-        "repo": "nixvim",
+        "owner": "FovirOS",
+        "repo": "fos-nixvim",
         "type": "github"
       }
     },
