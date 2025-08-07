@@ -44,6 +44,7 @@
 
     formatoptions = "croq";
 
-    wrap = false;
+    # Enable line wrap.
+    wrap = true;
   };
 }
