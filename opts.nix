@@ -46,5 +46,6 @@
 
     # Enable line wrap.
     wrap = true;
+    linebreak = true;
   };
 }
