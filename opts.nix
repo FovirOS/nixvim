@@ -1,7 +1,6 @@
 {pkgs, ...}: {
   extraConfigVim = ''
     set clipboard+=unnamedplus
-    set noeol
   '';
 
   extraConfigLua = ''
