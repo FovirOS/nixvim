@@ -97,5 +97,19 @@
       mode = "n";
       options.desc = "[D]ashboard";
     }
+
+    {
+      action = "<cmd>set spell<CR>";
+      key = "<leader>spt";
+      mode = "n";
+      options.desc = "[SP]ell [T]rue";
+    }
+
+    {
+      action = "<cmd>set nospell<CR>";
+      key = "<leader>spf";
+      mode = "n";
+      options.desc = "[SP]ell [F]alse";
+    }
   ];
 }
