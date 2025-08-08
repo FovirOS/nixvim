@@ -1,14 +1,17 @@
-{config, ...}: {
+{pkgs, ...}: {
   # Syntax highlight.
   plugins.treesitter = {
     enable = true;
 
     folding = true;
-
-    grammarPackages = config.plugins.treesitter.package.passthru.allGrammars;
+    grammarPackages = pkgs.vimPlugins.nvim-treesitter.passthru.allGrammars;
 
     settings = {
+      auto_install = true;
       indent.enable = true;
+      highlight = {
+        enable = true;
+      };
     };
   };
 
@@ -20,4 +23,3 @@
     vim.o.foldlevelstart = 99
   '';
 }
-
