@@ -24,6 +24,7 @@
         cpp = "g++ -o %s *.cpp -g && ./%s",
         go = "go build -o %s *.go && ./%s",
         js = "node %s"
+        ts = "npx tsx %s"
       }
 
       local filename = vim.fn.expand("%:t")
