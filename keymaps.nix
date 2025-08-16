@@ -111,5 +111,27 @@
       mode = "n";
       options.desc = "[SP]ell [F]alse";
     }
+
+    {
+      action.__raw = ''
+        function()
+          local ls = require("luasnip")
+          if ls.expand_or_jumpable() then
+            ls.unlink_current()
+          end
+          return "<Esc>";
+        end
+      '';
+      key = "<Esc>";
+      mode = [
+        "i"
+        "s"
+      ];
+
+      options = {
+        desc = "Unlink Luasnip Jump";
+        expr = true;
+      };
+    }
   ];
 }
