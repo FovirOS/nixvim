@@ -15,6 +15,8 @@
         "cpp" = ["clang_format"];
         "go" = ["gofmt"];
         "nix" = ["alejandra"];
+        "xml" = ["xmlstarlet"];
+        "svg" = ["xmlstarlet"];
       };
     };
   };
