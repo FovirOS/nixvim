@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./image.nix
     ./gitsigns.nix
     ./vim-matchup.nix
     ./conform-nvim.nix
