@@ -6,6 +6,7 @@
       filetypes = [
         "css"
         "javascript"
+        "javascriptreact"
         "html"
       ];
 
