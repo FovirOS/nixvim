@@ -15,6 +15,7 @@
         "cpp" = ["clang_format"];
         "go" = ["gofmt"];
         "nix" = ["alejandra"];
+        "toml" = ["taplo"];
       };
     };
   };
