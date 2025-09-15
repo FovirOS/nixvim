@@ -13,6 +13,7 @@
     ./gopls.nix
     ./nil.nix
     ./html.nix
+    ./yamlls.nix
   ];
 
   plugins.lsp = {
