@@ -39,6 +39,14 @@
           {name = "buffer";}
         ];
       };
+
+      gitcommit = {
+        sources = [
+          {name = "conventionalcommits";}
+          {name = "path";}
+          {name = "buffer";}
+        ];
+      };
     };
 
     settings = {
