@@ -16,7 +16,7 @@
         "go" = ["gofmt"];
         "nix" = ["alejandra"];
         "toml" = ["taplo"];
-        "java" = ["google_java_format"];
+        "java" = ["google-java-format"];
       };
     };
   };
