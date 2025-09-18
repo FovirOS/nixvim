@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./jdtls.nix
     ./lemminx.nix
     ./just.nix
     ./tailwindcss.nix
