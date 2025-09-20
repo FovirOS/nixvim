@@ -22,6 +22,13 @@
     }
 
     {
+      action = "<C-w>w";
+      key = "<leader>fl";
+      mode = "n";
+      options.desc = "Enter [FL]oat Window";
+    }
+
+    {
       action = "<C-w>q";
       key = "<leader>q";
       mode = "n";
