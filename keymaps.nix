@@ -100,7 +100,7 @@
 
     {
       action = "<cmd>Dashboard<CR>";
-      key = "<leader>d";
+      key = "<leader>D";
       mode = "n";
       options.desc = "[D]ashboard";
     }
