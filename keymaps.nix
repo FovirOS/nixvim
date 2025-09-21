@@ -106,7 +106,7 @@
     }
 
     {
-      action = "[d";
+      action = "<cmd>lua vim.diagnostic.goto_next()<CR>";
       key = "<leader>d";
       mode = "n";
       options.desc = "Go to the Next [D]iagnostic";
