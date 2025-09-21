@@ -106,6 +106,13 @@
     }
 
     {
+      action = "[d";
+      key = "<leader>d";
+      mode = "n";
+      options.desc = "Go to the Next [D]iagnostic";
+    }
+
+    {
       action = "<cmd>set spell<CR>";
       key = "<leader>spt";
       mode = "n";
