@@ -18,7 +18,14 @@
       action = "<C-w>v";
       key = "<leader>v";
       mode = "n";
-      options.desc = "Split Tab Vertically";
+      options.desc = "Split Tab [V]ertically";
+    }
+
+    {
+      action = "<C-w>s";
+      key = "<leader>h";
+      mode = "n";
+      options.desc = "Split Tab [H]orizontally";
     }
 
     {
