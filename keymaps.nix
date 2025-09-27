@@ -163,5 +163,19 @@
         desc = "[C]alculator";
       };
     }
+
+    {
+      action.__raw = ''
+        function()
+          return vim.fn.strftime("%F")
+        end
+      '';
+      key = "<C-r>t";
+      mode = "i";
+      options = {
+        desc = "Put Current Time in YYYY-MM-DD Format";
+        expr = true;
+      };
+    }
   ];
 }
