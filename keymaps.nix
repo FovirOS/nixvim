@@ -154,5 +154,14 @@
         expr = true;
       };
     }
+
+    {
+      action = "<C-R>=";
+      key = "<C-C>";
+      mode = "i";
+      options = {
+        desc = "[C]alculator";
+      };
+    }
   ];
 }
