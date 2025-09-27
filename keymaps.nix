@@ -156,15 +156,6 @@
     }
 
     {
-      action = "<C-R>=";
-      key = "<C-C>";
-      mode = "i";
-      options = {
-        desc = "[C]alculator";
-      };
-    }
-
-    {
       action.__raw = ''
         function()
           return vim.fn.strftime("%F")
