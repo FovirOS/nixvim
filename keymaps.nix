@@ -168,5 +168,19 @@
         expr = true;
       };
     }
+
+    {
+      action.__raw = ''
+        function()
+          return vim.fn.expand("%:.")
+        end
+      '';
+      key = "<C-r>rp";
+      mode = "i";
+      options = {
+        desc = "[R]elative [P]ath of Current File";
+        expr = true;
+      };
+    }
   ];
 }
