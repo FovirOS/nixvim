@@ -182,5 +182,19 @@
         expr = true;
       };
     }
+
+    {
+      action.__raw = ''
+        function()
+          return vim.fn.expand("%:t:r")
+        end
+      '';
+      key = "<C-r>fn";
+      mode = "i";
+      options = {
+        desc = "[F]ile [N]ame";
+        expr = true;
+      };
+    }
   ];
 }
