@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./sqls.nix
     ./jdtls.nix
     ./lemminx.nix
     ./just.nix
