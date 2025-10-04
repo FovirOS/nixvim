@@ -18,12 +18,6 @@
             text_align = "center";
           }
         ];
-
-        sort_by.__raw = ''
-          function (buf_a, buf_b)
-            return vim.fn.getbufinfo(buf_a.id)[1].lastused > vim.fn.getbufinfo(buf_b.id)[1].lastused
-          end,
-        '';
       };
     };
   };
