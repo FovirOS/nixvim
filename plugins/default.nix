@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./cybu.nix
     ./cmp-conventionalcommits.nix
     ./gitsigns.nix
     ./vim-matchup.nix
