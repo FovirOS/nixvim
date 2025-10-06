@@ -2,10 +2,11 @@
   plugins.lspsaga = {
     enable = true;
 
-    codeAction.keys.quit = "<esc>";
-    rename.keys.quit = "<esc>";
-
-    lightbulb.enable = false;
+    settings = {
+      code_action.keys.quit = "<esc>";
+      rename.keys.quit = "<esc>";
+      lightbulb.enable = false;
+    };
   };
 
   keymaps = [

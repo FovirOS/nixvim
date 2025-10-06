@@ -3,7 +3,7 @@
     enable = true;
 
     settings = {
-      snippetEngine = "luasnip";
+      snippet_engine = "luasnip";
     };
   };
 }
