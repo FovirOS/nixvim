@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./leetcode.nix
     ./cybu.nix
     ./cmp-conventionalcommits.nix
     ./gitsigns.nix
