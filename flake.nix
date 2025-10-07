@@ -4,7 +4,7 @@
 
     flake-utils.url = "github:numtide/flake-utils";
     nixvim = {
-      url = "github:FovirOS/fos-nixvim";
+      url = "github:Fovir-GitHub/nixvim";
     };
   };
 
