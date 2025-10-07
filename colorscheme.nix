@@ -4,11 +4,9 @@
     enable = true;
     settings = {
       flavour = "mocha";
-
-      integrations = {
-        cmp = true;
-        mini.enabled = true;
-      };
+      transparent_background = false;
+      term_colors = true;
+      default_integrations = true;
     };
   };
 }
