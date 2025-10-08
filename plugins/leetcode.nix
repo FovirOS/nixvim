@@ -6,6 +6,9 @@
       storage = {
         home = "~/Projects/leetcode";
       };
+      picker = {
+        provider = "telescope";
+      };
     };
   };
 }
